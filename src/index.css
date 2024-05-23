@@ -1,0 +1,364 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.intro_container{
+  background-image: url(images/image1.jpeg);
+  
+  background-size: cover;
+  color: white;
+  height: 400px;
+  background-position: center;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.intro_container section{
+
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+
+}
+.intro_container p{
+  text-align: center;
+  
+}
+.intro_container h1{
+  font-size: 60px;
+
+}
+.logo h1{
+  font-size: 30px;
+}
+
+.intro_container button{
+  background-color: orange;
+  color: white;
+  height: 30px;
+  width: 80px;
+}
+.intro_container button:hover{
+  color: grey;
+  background-color: white;
+  cursor: pointer;
+}
+.intro{
+ 
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.links ul{
+
+  font-size: 18px;
+  top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  right: 0.5rem;
+}
+.offlink ul{
+  font-size: 18px;
+  top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  right: 0.5rem;
+}
+
+.links ul li{
+  list-style: none;
+
+}
+.offlink ul li{
+  list-style: none;
+}
+
+.links ul li a{
+  text-decoration: none;
+  padding: .5rem;
+  color: white;
+}
+.offlink ul li a{
+  text-decoration: none;
+  padding: .5rem;
+  color: white;
+}
+.links ul li a:hover{
+  
+  border-bottom: 3px solid white;
+}
+.offlink ul li a:hover{
+  border-bottom: 3px solid white;
+}
+.second{
+  
+  display: flex;
+  justify-content: space-around;
+
+  
+}
+.second section{
+padding: 1%;
+}
+.second video{
+  width:70% ;
+  height:150px;
+  text-align: center;
+  
+}
+.second p{
+  text-align: center;
+}
+.second_container{
+  background-color: rgb(126, 123, 123);
+  margin-bottom: 1rem;
+}
+.third{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  margin: 1rem;
+}
+.third section{
+  padding: 1%;
+}
+.third img{
+  width: 50px;
+  height: 50px;
+}
+.third p, h4{
+  text-align: center;
+}
+h3{
+  margin-left: 3rem;
+  
+}
+.fourth{
+  background-image: url(./images/side\ guy.jpg);
+  background-size: cover;
+  background-position: center;
+background-origin: content-box;
+  margin-bottom: 1rem;
+  height: 300px;
+  position: relative;
+  width: 100%;
+}
+.fourth button:hover{
+  cursor: pointer;
+}
+.fourth section{
+position: absolute;
+
+left: 1rem;
+top: 45%;
+
+}
+.fourth section h4, .fourth section p{
+  color:grey;
+  font-weight: bold;
+}
+
+.fifth{
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+.fifth section{
+  padding: 1%;
+}
+.fifth img{
+  width: 100px;
+  height: 60px;
+  text-align: center;
+}
+.fifth p, h4{
+  text-align: center;
+}
+body{
+  background-color: white;
+}
+.sixth_container{
+  background-color: black;
+  height: 300px;
+  margin-bottom: 1rem;
+  
+  gap: 20px;
+}
+.sixth_img{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+padding-top: 50px;
+margin-left: 1rem;
+margin-right: 1rem;
+}
+.sixth_container h2{
+color: white;
+text-align: left;
+margin-left: 1rem;
+
+}
+.sixth_container img{
+  width:30%;
+  height: 200px;
+}
+.seventh{
+display: flex;
+justify-content: space-around;
+margin: 1rem;
+margin-bottom: 1rem;
+position: relative;
+}
+.seventh section{
+  padding: 1%;
+}
+.testimonial_guy{
+  height: 70px;
+  width: 70px;
+  border-radius: 30px;
+  position: absolute;
+  right: 0px;
+}
+.seventh_testimonial{
+  background-color: grey;
+  width:200px;
+  height: 100px;
+  position: relative;
+  margin-bottom: 4rem;
+  
+  margin-left: 4rem;
+}
+.footer_container{
+background-color: black;
+height: 366px;
+color: white;
+}
+.footer{
+margin: 1rem;
+display: flex;
+justify-content: space-around
+}
+.footer section{
+  padding:1% ;
+}
+.footer img{
+
+height: 30px;
+width: 30px;
+border-radius:50%;
+}
+#button{
+  position:absolute;
+  top: .75rem;
+  right: 1rem;
+  display:none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  
+}
+.bar{
+  width:100% ;
+  height:3px ;
+  background-color:white ;
+  border-radius: 10px;
+}
+.seventh .images_1 img{
+  width: 100px;
+  height: 50px;
+}
+.seventh .images_2 img{
+  width: 100px;
+  height: 50px;
+}
+@media only screen and (max-width: 284px){
+  .fifth img{
+    width: 60px;
+  }
+.logo h1{
+font-size: 20px;
+  }
+  .seventh_testimonial{
+    margin-left: 23px;
+  }
+  .third h4{
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width:700px){
+  
+
+  #button{
+      display: flex;
+  }
+.sixth_container{
+  gap: 10px;
+}
+
+.intro_container{
+  height: 300px;
+}
+.second video{
+  width:115px ;
+  height:200px;
+}
+.fifth img{
+  width: 60px;
+}
+.seventh{
+  display: block;
+  text-align: center;
+}
+.seventh h3{
+  margin-bottom: 0.5rem;
+}
+.seventh_testimonial{
+  text-align: center;
+}
+.footer{
+  display: block;
+  
+}
+.footer_container{
+  height: 590px;
+}
+
+.offlink li{
+list-style: none;
+margin-bottom: 10px;
+}
+.offlink a{
+  color: white;
+  text-decoration: none;
+
+}
+.offlink a:hover{
+  background-color:orange;
+}
+.offlink{
+  background-color: grey;
+  width: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  height: 400px;
+overflow: hidden;
+}
+.offlink ul{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+padding: 1rem;
+}
+.links{
+  display: none;
+}
+#display{
+  display: none;
+}
+}
